@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bai tap demo 1</title>
+    <title>Document</title>
 </head>
-
+<script>
+    // tao mot funtion co ten tinh
+    function giaiptbac1(){
+        //Code thuat toan
+        //vi du lay gia tri tu ban phim su dung ham promt()
+        let a = +prompt('nhap a: ');
+        let b = +prompt('nhap gia tri b: ');
+        
+        if (a==0) {
+             if (b==0) {
+                alert('Vo so nghiem');
+            } else {
+                alert('vo nghiem');
+            }
+            
+        } else {
+            x=-b/a;
+            alert('Gia tri x can tim; ', x);
+        }
+     
+      
+    
+    }
+</script>
 <body>
-    <!-- <p> Hello world</p> -->
+    <button onclick="tinh()">Click</button>
+    <!-- <script src="js/my.js"></script> -->
 </body>
 </html>
